@@ -7,14 +7,6 @@ int main() {
 	freopen("../input.txt", "r", stdin);
 	freopen("../output.txt", "w", stdout);
 #endif
-	int n;
-	cin >> n;
-	cout << "Hello World" << n << endl;
-	if (true) {
-		cout << "Here" << endl;
-	}
-	else {
-		cout << "Here" << endl;
-	}
+	cout << __cplusplus << '\n';
 	return 0;
 }
